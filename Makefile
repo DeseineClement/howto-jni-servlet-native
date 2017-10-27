@@ -1,4 +1,4 @@
-NAME		=	libtest.so
+NAME		=	libmyapp.so
 
 SRCDIR		=	./src
 INCLUDEDIR	=	./include
