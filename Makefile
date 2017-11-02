@@ -4,7 +4,7 @@ SRCDIR		=	./src
 INCLUDEDIR	=	./include
 OBJDIR		=	./.obj
 
-SRC		=	TestJNI.cpp
+SRC		=	MyAppJNI.cpp
 OBJ		=	$(SRC:%.cpp=$(OBJDIR)/%.o)
 INC		=	-I$(INCLUDEDIR) -I$(JAVA_HOME)/include -I$(JAVA_HOME)/include/linux
 
