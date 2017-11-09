@@ -2,3 +2,9 @@
 *.so
 *~
 \#*\#
+
+\.idea/
+
+*\.iml
+
+Java/target/
