@@ -32,6 +32,8 @@
                         <compilerStartOption>-Wall</compilerStartOption>
                         <compilerStartOption>-Wextra</compilerStartOption>
                         <compilerStartOption>-Werror</compilerStartOption>
+                        <compilerStartOption>-I${JAVA_HOME}/include</compilerStartOption>
+                        <compilerStartOption>-I${JAVA_HOME}/include/linux</compilerStartOption>
                     </compilerStartOptions>
 
                     <sources>

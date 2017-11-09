@@ -10,10 +10,13 @@ public class Main {
             System.err.println("./out: [string] [number]");
             return;
         } catch (NumberFormatException e) {
-            System.err.println("./out: [string] [number]");
+            System.err.println("Error: second argument must be a number.");
             return;
         }
-
-        System.out.println(string.concat(String.valueOf(number)));
+        try {
+            System.out.println(Concat.concat(string, number));
+        } catch (java.lang.UnsatisfiedLinkError e) {
+            System.err.println("Error: the native library must be on the jar directory ( " + System.getProperty("user.dir") + " ).");
+        }
     }
 }
