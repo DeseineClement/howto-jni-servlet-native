@@ -16,7 +16,7 @@ public class Main {
         try {
             System.out.println(Concat.concat(string, number));
         } catch (java.lang.UnsatisfiedLinkError e) {
-            System.err.println("Error: the native library must be on the jar directory ( " + System.getProperty("user.dir") + " ).");
+            System.err.println("Error: the native library must be in the user current directory ( " + System.getProperty("user.dir") + " ).");
         }
     }
 }
